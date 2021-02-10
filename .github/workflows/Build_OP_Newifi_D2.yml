@@ -71,7 +71,6 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         ./scripts/feeds install -a
-
     - name: Configuration Customization - Build_Newifi_D2
       env:
         CONFIG_FILE: 'Newifi_D2.config'
